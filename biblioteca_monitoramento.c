@@ -10,7 +10,7 @@
 ThingerESP32 thing(USER_ID, DEVICE_ID, DEVICE_CREDENTIAL);
 
 #define DHTPIN  15   
-#define DHTTYPE DHT11
+#define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
 #define LEDg  5        

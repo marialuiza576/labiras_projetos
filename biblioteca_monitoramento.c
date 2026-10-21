@@ -50,6 +50,10 @@ void setup() {
 }
 
 void loop() {
+ digitalWrite(LEDy,HIGH)
+ digitalWrite(LEDg,HIGH)
+ digitalWrite(LEDr,HIGH)
+
   thing.handle();
   unsigned long tempoAtual = millis();
   
